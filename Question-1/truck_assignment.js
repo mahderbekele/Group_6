@@ -25,6 +25,6 @@ const pickUps = [
   { id: 1, capacity: 800, available: true },
   { id: 2, capacity: 700, available: false }
 ];
-const garbageAmount = 200;
+const garbageAmount = 700;
 
 console.log(assignTruckAndRoute(routes, trucks, pickUps, garbageAmount));
